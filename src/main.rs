@@ -11,7 +11,10 @@ fn main() {
     println!(">> immutable");
     let y = 5;
     println!("The value of y is: {}", x);
-    y = 6;
+    // y = 6;
     println!("The value of y is: {}", x);
     println!("----------");
+
+    const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
+    println!("Constants: {}", THREE_HOURS_IN_SECONDS);
 }
